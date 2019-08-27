@@ -3,15 +3,21 @@ var spaceLingo = [
     "galaxy",
     "supernova",
     "dark matter",
-    "dark matter",
+    "eclipse",
     "quasar",
     "spaghettification",
     "exoplant",
 ];
 
-correctGuesses = [];
-phraseGuesses = [];
-numberOfBlanks = "";
+
+var livesRemain = 9;
+var win = 0;
+var loss = 0;
+
+var wrongChoices = [];
+var correctGuesses = [];
+var phraseGuesses = [];
+var numberOfBlanks = "";
 
 var phrases = ""
 
@@ -43,3 +49,12 @@ function startGame() {
 }
 
 startGame();
+
+
+
+function reset() {
+    livesRemain
+    wrongChoices
+    correctChoices
+
+};
