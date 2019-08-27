@@ -55,6 +55,8 @@ startGame();
 function reset() {
     livesRemain
     wrongChoices
-    correctChoices
+    correctGuesses
+    phraseGuesses
+    startGame()
 
 };
