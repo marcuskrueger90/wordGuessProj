@@ -1,3 +1,28 @@
 body{
     background-image: url(../images/IMG_0527.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+      background-color: #fefefe;
+      background-image: url(../images/IMG_0530.JPG);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+}
+
+#blanks{
+    position: relative;
+    left: 70px;
+    top: 70px;
+    background-color: #FEFEFE;
+    color: #000000;
+    border: 5px solid #000000;
+    padding: 5px;
+    width: 240px;
+    height: 100px;
 }
